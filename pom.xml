@@ -29,7 +29,7 @@
     </site>
     <repository>  
       <id>tomcat-repo</id>  
-      <url>http://44.222.143.222:8080</url>  
+      <url>http://44.222.143.222:8080/manager/text</url>  
     </repository>  
    
   </distributionManagement>
