@@ -27,6 +27,11 @@
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
     </site>
+    <repository>  
+      <id>tomcat-repo</id>  
+      <url>http://44.222.143.222:8080</url>  
+    </repository>  
+   
   </distributionManagement>
 
   <build>
