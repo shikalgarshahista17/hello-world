@@ -20,7 +20,7 @@ jobs:
         with:
           java-version: '11'
       - name: jdk version knowing
-        uses: java -version
-      # - name: maven version
-        # uses: mvn -version
+        run: java -version
+      - name: maven version
+        run: mvn -version
         
