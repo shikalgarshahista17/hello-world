@@ -21,6 +21,6 @@ jobs:
           java-version: '11'
       - name: jdk version knowing
         uses: java -version
-      - name: maven version
-        uses: mvn -version
+      # - name: maven version
+        # uses: mvn -version
         
