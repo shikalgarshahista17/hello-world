@@ -15,12 +15,19 @@ jobs:
     steps:
       - name: Check out the code
         uses: actions/checkout@v3
-      - name: Set JDK
-        uses: actions/setup-java@v3
-        with:
-          java-version: '11'
+      # - name: Set JDK
+      #   uses: actions/setup-java@v3
+      #   with:
+      #     java-version: '11'
+      #     distribution: 'temurin'
       - name: jdk version knowing
         run: java -version
-      - name: maven version
+      - name: Maven Version
         run: mvn -version
+      - name: Validate
+        run: mvn validate
+      - name: Test
+        run: mvn test
+      - name: Package
+        run: mvn package
         
